@@ -1,0 +1,49 @@
+15:52:51, tls, https, [302] [Apache] [Backbone] [Bootstrap] [OpenSSL] [Python], https://195.113.142.114:443//en/, MapSearch
+15:52:53, tcp, http, [302] [Apache] [Backbone] [Bootstrap] [OpenSSL] [Python], http://195.113.142.114:80//en/, MapSearch
+15:52:56, tls, https, [200] [Apache], https://195.113.142.117:443, Library VÚGTK - Surveying Library of VUGTK
+15:52:57, tcp, http, [200] [Apache], http://195.113.142.117:80, Library VÚGTK - Surveying Library of VUGTK
+15:53:32, tls, https, [301] [Apache] [Apache-Struts2] [JAVA] [JSP], https://195.113.142.116:443/search/, Kramerius 5
+15:53:34, tcp, http, [301] [Apache] [Apache-Struts2] [JAVA] [JSP], http://195.113.142.116:80/search/, Kramerius 5
+15:53:49, tcp, ssh, None, ssh://195.113.142.34:22, SSH-2.0-OpenSSH_6.6.1p1\x20Ubuntu-2ubuntu2.8
+15:53:49, tcp, ssh, None, ssh://195.113.142.35:22, SSH-2.0-OpenSSH_7.6p1\x20Ubuntu-4ubuntu0.3
+15:53:50, tls, https, [502] [Nginx], https://195.113.142.35:443, 502 Bad Gateway
+15:53:52, tcp, http, [502] [Nginx], http://195.113.142.35:80, 502 Bad Gateway
+15:53:52, tcp, , None, 195.113.142.35:8009, 
+15:53:55, tcp, http, [200] [Apache-Tomcat], http://195.113.142.35:8080, Apache Tomcat/9.0.0.M26
+15:54:04, tcp, ssh, None, ssh://195.113.142.37:22, SSH-2.0-OpenSSH_6.6.1p1\x20Ubuntu-2ubuntu2.10
+15:54:19, tcp, ssh, None, ssh://195.113.142.44:22, SSH-2.0-OpenSSH_7.6p1\x20Ubuntu-4ubuntu0.3
+15:54:19, tcp, ssh, None, ssh://195.113.142.43:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.6
+15:54:19, tcp, ssh, None, ssh://195.113.142.42:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.6
+15:54:24, tls, https, [400] [Apache], https://195.113.142.44:443, None
+15:54:26, tcp, http, [301] [Apache], http://195.113.142.44:80/, None
+15:54:34, tcp, ssh, None, ssh://195.113.142.45:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.6
+15:54:34, tcp, ssh, None, ssh://195.113.142.51:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.8
+15:54:34, tcp, ssh, None, ssh://195.113.142.162:22, SSH-2.0-dropbear_2015.71
+15:54:36, tls, https, [200] [Nginx], https://195.113.142.51:443, Welcome to nginx!
+15:54:50, tcp, http, [200] [PHP], http://195.113.142.162:80, White-Rabbit Local Management Tool
+15:54:51, tcp, ssh, None, ssh://195.113.142.50:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.8
+15:54:51, tcp, ssh, None, ssh://195.113.142.55:22, SSH-2.0-OpenSSH_8.2p1\x20Ubuntu-4ubuntu0.4
+15:54:51, tcp, ssh, None, ssh://195.113.142.46:22, SSH-2.0-OpenSSH_8.2p1\x20Ubuntu-4ubuntu0.3
+15:54:52, tls, https, [502] [Nginx], https://195.113.142.50:443, 502 Bad Gateway
+15:54:58, tcp, http, None, http://195.113.142.50:80, None
+15:55:06, tcp, ssh, None, ssh://195.113.142.52:22, SSH-2.0-OpenSSH_7.2p2\x20Ubuntu-4ubuntu2.8
+15:55:06, tcp, ssh, None, ssh://195.113.142.47:22, SSH-2.0-OpenSSH_8.2p1\x20Ubuntu-4ubuntu0.3
+15:55:08, tls, https, [404] [Apache-Tomcat] [Nginx], https://195.113.142.52:443, HTTP Status 404 – Not Found
+15:55:09, tcp, http, [400] [Nginx], http://195.113.142.47:443, 400 The plain HTTP request was sent to HTTPS port
+15:55:13, tcp, http, None, http://195.113.142.52:80, None
+15:55:21, tcp, ssh, None, ssh://195.113.142.69:22, SSH-2.0-OpenSSH_6.6.1p1\x20Ubuntu-2ubuntu2.8
+15:55:21, tcp, ssh, None, ssh://195.113.142.165:22, SSH-2.0-dropbear_2015.71
+15:55:22, tls, https, [200] [Nginx], https://195.113.142.69:443, Welcome to nginx!
+15:55:37, tcp, http, [200] [PHP], http://195.113.142.165:80, White-Rabbit Local Management Tool
+15:55:40, tls, https, [200] [Cisco-AWARE] [Cisco-VPN], https://195.113.142.150:443, None
+15:55:52, tcp, ssh, None, ssh://195.113.142.66:22, SSH-2.0-OpenSSH_7.6p1\x20Ubuntu-4ubuntu0.5
+15:55:54, tls, https, [200] [Nginx], https://195.113.142.154:443, WAYF/DS
+15:56:07, tcp, ssh, None, ssh://195.113.142.199:22, SSH-2.0-OpenSSH_7.9p1\x20Debian-10+deb10u2
+15:56:07, tcp, ssh, None, ssh://195.113.142.67:22, SSH-2.0-OpenSSH_5.9p1\x20Debian-5ubuntu1.10
+15:56:07, tcp, ftp, None, ftp://195.113.142.199:21, 220\x20ProFTPD\x20Server\x20(GOP:OC)\x20[195.113.142.199]\x0d\x0a
+15:56:21, tcp, http, [404], http://195.113.142.67:9080, 404 - No Such Resource
+15:56:25, tcp, http, [500] [Apache-Tomcat], http://195.113.142.66:8080, HTTP Status 500 – Internal Server Error
+16:00:20, tls, https, [200] [Apache] [MOXA-NPort-5150A], https://195.113.142.199:443, None
+16:00:25, tcp, http, [302] [Apache] [MOXA-NPort-5150A], http://195.113.142.199:80/, None
+16:01:13, tls, https, [200] [Cisco-AWARE] [Cisco-VPN], https://195.113.142.150:443, None
+16:01:37, tls, https, [200] [Cisco-AWARE] [Cisco-VPN], https://195.113.142.150:443, None

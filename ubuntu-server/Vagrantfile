@@ -1,0 +1,15 @@
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "geerlingguy/ubuntu/2004"
+  config.ssh.insert_key = false
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+  config.vm.provider :virtualbox do |v|
+    v.memory = 2048
+    v.linked_clone = true
+  end
+
+  config.vm.define "app1" do |app|
+    app.vm.hostname = "orc-drupal.test"
+    app.vm.network :private_network, ip: "192.168.60.5"
+  end
+end
