@@ -2,6 +2,7 @@
 - name: Configure webserver with nginx
   hosts: webservers
   become: yes
+
   tasks:
           - name: Install nginx
             package: name=nginx update_cache=yes
