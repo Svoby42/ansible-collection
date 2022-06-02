@@ -1,0 +1,33 @@
+
+Vagrant.configure("2") do |config|
+
+  if Vagrant.has_plugin?("vangrant-vbguest")
+    config.vbguest.auto_update = false
+  end
+
+  config.vm.synced_folder '.', '/vagrant', disabled: true
+  
+  config.vm.define "ubuntu" do |ubuntu|
+    ubuntu.vm.box = "ubuntu/focal64"
+    ubuntu.vm.network "private_network", ip: "192.168.56.1"
+    ubuntu.vm.provider "virtualbox" do |virtualbox|
+      virtualbox.name = "ubuntu"
+    end
+  end
+
+  config.vm.define "fedora" do |fedora|
+    fedora.vm.box = "fedora/35-cloud-base"
+    fedora.vm.network "private_network", ip: "192.168.56.2"
+    fedora.vm.provider "virtualbox" do |virtualbox|
+      virtualbox.name = "fedora"
+    end
+  end
+
+  config.vm.define "debian" do |debian|
+    debian.vm.box = "debian/bullseye64"
+    debian.vm.network "private_network", ip: "192.168.56.3"
+    debian.vm.provider "virtualbox" do |virtualbox|
+      virtualbox.name = "debian"
+    end
+  end
+end
